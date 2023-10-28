@@ -1,0 +1,4 @@
+{
+  "install": "sh ~/install.sh",
+  "start": "echo \"Starting\" && ~/oko-glitch -p ${PORT} -c config.json"
+}
