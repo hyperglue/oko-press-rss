@@ -1,4 +1,4 @@
-package oko-glitch
+package main 
 
 import (
 	"fmt"
