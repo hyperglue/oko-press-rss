@@ -1,0 +1,5 @@
+{
+	"url": "https://graphql-cache.oko.press/?operationName=ContentsPaginated&variables={%22offset%22:0,%22limit%22:10,%22order_by%22:{%22publish_at%22:%22desc_nulls_last%22},%22where%22:{%22status%22:{%22_eq%22:%22published%22},%22type%22:{%22_nin%22:[%22micro_analysis%22,%22micro_analysis_light%22]}}}&extensions={%22persistedQuery%22:{%22version%22:1,%22sha256Hash%22:%22f7980acbcff7651281c08118e712160f037beb517eac571c9474d720fb614a38%22}}",
+	"thumbnail_compression": "https://cdn.oko.press/cdn-cgi/image/width=700,quality=80/",
+	"interval": 5
+}
