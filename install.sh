@@ -1,0 +1,1 @@
+wget -q -O oko-glitch $(wget -q -O - https://api.github.com/repos/hyperglue/oko-press-rss/releases | grep -E "browser.*glitch" | grep -v "md5" | head -1 | sed -E 's/.*(https.*)"/\1/') && wget -q -O config.json https://raw.githubusercontent.com/hyperglue/oko-press-rss/glitch/config.json && chmod +x oko-glitch
